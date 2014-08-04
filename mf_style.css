@@ -42,6 +42,13 @@ a:hover {
     font-weight: bold;
 }
 
+.topnavdisabled {
+    color: #2ac4ea;
+    text-decoration: none;
+    font-weight: bold;
+    opacity: .6;
+}
+
 .logo {
     display: inline-block; 
     float: left;
