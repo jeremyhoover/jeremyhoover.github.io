@@ -1,0 +1,356 @@
+html {
+    margin-top: 92px;
+}
+
+body {
+	margin: 0;
+	padding: 0 0%;
+	color: #333;
+	font-family: 'Lora', serif;
+	line-height: 1.75;
+	letter-spacing: .01rem;
+	font-size: 19px;
+	-webkit-text-size-adjust: none; /* Prevent font scaling in landscape */
+}
+
+a {
+    color: #999;
+}
+
+a:hover {
+    color: #2ac4ea;
+}
+
+.navcontainer {
+    float: right; 
+    display: inline-block; 
+    font-family: 'Open Sans', sans-serif; 
+    margin: auto;
+    margin-top: 8px;
+}
+
+.topnav {
+    color: #eee;
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+.topnavlast {
+    color: #eee;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.logo {
+    display: inline-block; 
+    float: left;
+    margin-top: 3px;
+    margin: auto;
+}
+
+.logo a {
+    color: #fff; 
+    text-decoration: none; 
+    padding-top: 0; 
+    padding-bottom: 0; 
+    padding-left: 10px; 
+    padding-right: 10px; 
+    border-radius: 50%; 
+    width: 60px; 
+    height: 60px; 
+    background: #333; 
+    font-size: 50px;
+    -webkit-box-shadow: 0px 3px 5px rgba(100, 100, 100, 0.49);
+	-moz-box-shadow:    0px 3px 5px rgba(100, 100, 100, 0.49);
+	box-shadow:         0px 3px 5px rgba(100, 100, 100, 0.49);
+}
+
+.logo a:hover {
+	color: #333;
+	background: #fff;
+}
+
+.features {
+    font-family: 'Open Sans', sans-serif; 
+    font-size: 14px; 
+    background: #eee; 
+    padding: 10px; 
+    border-radius: 5px; 
+    display: inline-block; 
+    font-weight: bold;
+    margin-bottom: -10px;
+}
+
+div {
+    display: inline-block;
+    outline: 0px solid transparent;
+}
+
+span {
+	outline: 0px solid transparent;
+}
+
+h1, h2, h3, h5 {
+	font-family: 'Open Sans', sans-serif;
+}
+
+h2 {
+    font-weight: 400;
+}
+
+h4 {
+    font-weight: 600;
+    margin-bottom: -20px;
+}
+
+h1.name {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+li {
+	margin-left: -22px;
+} 
+
+ul {
+	margin-top: 20px;
+	outline: 0px solid transparent;
+} 
+
+hr {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+h1.logo {
+    font-size: 30px;
+    letter-spacing: 10px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+div.nav {
+    display: inline-block; 
+	float: right; 
+	margin-left: 20px; 
+	margin-top: 1px;
+}
+
+.topbar {
+    width: 100%; 
+    background: #111; 
+    height: 47px;
+    -webkit-box-shadow: 0px 3px 5px rgba(100, 100, 100, 0.49);
+	-moz-box-shadow:    0px 3px 5px rgba(100, 100, 100, 0.49);
+	box-shadow:         0px 3px 5px rgba(100, 100, 100, 0.49);
+}
+
+#menu {
+         position: fixed;
+         top: 0;
+         bottom: 0;
+         width: 13.755em;
+         right: -13.755em;
+         height: 100%;
+         -webkit-transform: translate(0px, 0px);
+        -moz-transform: translate(0px, 0px);
+        -o-transform: translate(0px, 0px);
+        -ms-transform: translate(0px, 0px);
+        transform: translate(0px, 0px);
+        -webkit-transition: 0.15s ease;
+        -moz-transition: 0.15s ease;
+        -o-transition: 0.15s ease;
+        transition: 0.15s ease;
+}
+
+#menu.active {
+        -webkit-transform: translate(-13.755em, 0px);
+        -moz-transform: translate(-13.755em, 0px);
+        -o-transform: translate(-13.755em, 0px);
+        -ms-transform: translate(-13.755em, 0px);
+        transform: translate(-13.755em, 0px);
+}
+
+.menu-link {
+      position: absolute;
+      top: 15px;
+      left: -50px;
+}
+
+.sitecontainer {
+        width: 100%;
+       -webkit-transform: translate(0px, 0px);
+       -moz-transform: translate(0px, 0px);
+       -o-transform: translate(0px, 0px);
+       -ms-transform: translate(0px, 0px);
+       transform: translate(0px, 0px);
+       -webkit-transition: 0.15s ease;
+       -moz-transition: 0.15s ease;
+       -o-transition: 0.15s ease;
+       transition: 0.15s ease;  
+}
+
+.sitecontainer.active {
+       -webkit-transform: translate(-13.725em, 0px);
+       -moz-transform: translate(-13.725em, 0px);
+       -o-transform: translate(-13.725em, 0px);
+       -ms-transform: translate(-13.725em, 0px);
+       transform: translate(-13.725em, 0px);
+}
+
+#nav li {
+    display: block;
+    padding: 0.5em 0.5em;
+}
+
+#nav li a {
+    color: #eee;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+#nav li a:hover {
+    color: #999;
+}
+
+#nav li a:active {
+    color: #FF0000;
+}
+
+div.container {
+    display: block;
+    margin: auto;
+    bottom: 0;
+    width: 100%;
+    min-height: 100%;
+    max-width: 1200px;
+}
+
+div.container-content {
+    display: block;
+    width: 90%;
+    max-width: 960px;
+    margin: auto;
+}
+
+#topimage {
+    width: 100%; 
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.portfolioitem {
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.portfolioheader {
+    width: 100%;
+    margin-top: -45px;
+    margin-bottom: 10px;
+}
+
+a img:hover {
+	opacity: .7;
+}
+
+
+.portfoliobackground {
+    width: 100%; 
+    background: url(http://hooverstudios.com/img/desk2.jpg) no-repeat bottom center scroll;
+    background: #efefef; 
+    margin-top: 60px;
+}
+
+.portfoliobackground:before{
+    
+}
+
+
+/* B&W Images*/
+
+.bw:hover {
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+    -webkit-filter: grayscale(100%);
+}
+ 
+.bw {
+  -webkit-filter: grayscale(0%);
+  -webkit-transform: translateZ(0); 
+}
+@media screen and (max-width: 1024px) {
+
+    
+div.container {
+    display: block;
+    margin: 0;
+    bottom: 0;
+    width: 100%;
+    float: left;
+    min-height: 100%;
+}
+
+    
+}
+
+@media screen and (max-width: 767px) {
+    
+body {
+    font-size: 15px;
+}
+    
+h1.name {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+    line-height: 1;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.navcontainer {
+    margin-top: 10px;
+}
+
+h4 {
+    margin-bottom: -20px;
+    line-height: 1.5;
+}
+
+.dates {
+	padding-top: 10px;
+}
+
+li {
+	margin-bottom: 8px;
+}
+    
+}
+
+
+
+
+
+
+
+
+
+
