@@ -45,6 +45,7 @@ a:hover {
 .topnavdisabled {
     color: #2ac4ea;
     text-decoration: none;
+    margin-right: 20px;
     font-weight: bold;
     opacity: .6;
 }
